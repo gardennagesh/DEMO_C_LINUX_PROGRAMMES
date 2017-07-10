@@ -1,0 +1,18 @@
+This programme demonstrate a simple future time task notifier from current time. 
+This is a kind of very simple version of calender-blocker and notfier.
+The programmes uses  IPC shared memory and timers.
+This is just a demo programme. Of courcce fully functional event notifier can be implimented. 
+
+Steps to run and use this programme.
+1) pull the code in a temp_dir.
+2) You can see 3 source files: "notify_me.c" , "task_server.c",  "my_action.c"
+3) Run ./compile.sh
+4) After compilation, it produces 3 exe files  "my_action" ,  "notify_me" , "task_server"
+5) Lets have all executable in "temp_dir"
+6) Run ./task_server : This receives from notify_me , MESSAGE and future TIME. [You should run this programme first] 
+7) Run ./notify_me YOUR_MESSAGE HH-MM-SS.  This programme sends message and Time will be send to task_server.
+   Example:  "./notify_me  COFFEE_BREAK 00-05-10" . This would notify you after 5minutes-10seconds from now.
+               So, after specified time you would see XCLOCK and your MESSAGE on screen as notification.
+8) my_action : This programme executed by task_server to notify user. 
+9) ./clean.sh  clean up executable. 
+

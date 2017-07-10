@@ -1,0 +1,15 @@
+ Programmer : Nagesh Nanjundachari 
+
+ This File README .
+
+ This programme is just to demonstrate how dynamic-logger-level can be implemented  
+
+ This programme is NOT multi-Thread-safe. logmsg function is not thread safe   
+
+ Header and module file:     1)logmsg.h  2)main.c  3)logmsg.c    4)abc.c   5)xyz.c  
+
+ USAGE: Compile files in a temp_dir cc -o dylogs main.c abc.c xyz.c logmsg.c 
+
+ Run "./dylogs" executable.
+
+ You can observe log_levels of abc.c and xyz.c changes based upon ODD or EVEN value of random-val.

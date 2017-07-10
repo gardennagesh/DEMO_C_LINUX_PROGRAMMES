@@ -1,0 +1,9 @@
+File: README
+Some "C" programme samples.
+Especially complex pointer programmes.
+I will add some more programmes.
+
+USAGE of programmes is at head_lines of source file.
+pointer_2d_array.c  :  Explains how a element in 2-D array can be accessed using array pointers.
+pointer_function.c  :  Demo programme for  function pointers and function returning pointer.
+simple_shell.c      :  Demo programme for double pointers. Just does fork+exec.

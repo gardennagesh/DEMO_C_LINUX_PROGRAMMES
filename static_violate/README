@@ -1,0 +1,3 @@
+This programmes demonstrate static data access out of its file scope.
+That means, static variable are accessed only inside a File-Scope.
+But, by returning address of static variables, you can access data in other files.
