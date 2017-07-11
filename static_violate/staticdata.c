@@ -1,7 +1,9 @@
 /* This is staticdata.c
  * Module : staticdata.c
- * Static variable stat_val, function  stat_func are bound to file scope within staticdata.c.
- * Eventhough these varaible or function can be accessed out side from violate.c.
+ * Static variable stat_val, function  stat_func are bound to file scope within staticdata.c .
+ * This varaible or function can be accessed out side of this file and from violate.c . 
+ * That is by returning address of variables, via function returning void pointer.
+ * func_ret  returns address of stat_val if ODD cmd-line argument passed else returns address of stat_func.
  */
 
 #include<stdio.h>
