@@ -2,9 +2,10 @@ File: README
 Read input strings from stdin.
 String may contain ascii chars and utf-8 chars.
 Examples: HelloWorld, Astring_with_chess_symbol, Astring_with_pound_euro. 
-This programme prints only uft-8 chars out of input string.
+This programme prints ONLY uft-8 chars out of input string.
 
 Example_1:   
 If you inpout  "chess_♕_♖_symbols" as a string , the output will be ♕♖
 Example_2:   
- If you input Pound_£_€_Symbol as a string, the output will be £_€
+ If you input "Pound_£_€_Symbol" as a string, the output will be £€
+ 
