@@ -88,6 +88,7 @@ main (int argc, char *av[])
       bytes_arrange (&hex_val);
       func_find_utf8 ((char *) &hex_val);
       hex_val = temp_hex;
+	  /* Below line is a bug , will be fixed */
       ++hex_val;
     }
 
