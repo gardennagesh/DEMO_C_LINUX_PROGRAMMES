@@ -35,7 +35,7 @@ char pwd[500] = {0};
         if(!fork()) {
                 getcwd (pwd, 500);
                 strcat (pwd, "/my_action");
-                execl(pwd, "c_action", rx_alname, rx_secs, NULL);
+                execl(pwd, "my_action", rx_alname, rx_secs, NULL);
         }
 }
 
