@@ -1,7 +1,7 @@
 /**********************************************************************
 Developer: Nagesh Nanjundachari
 Email:     garden.nagesh@gmail.com
-Task:      It was a coding challenge fired to me. 
+Task:      It was a coding challenge received. 
 Challenge: Read input strings and print only uft-8 chars from string.
 Setup:     Make sure your Linux ENVIORNMENT has UTF-8 enabled.
 Example:   Hello_123, chess_♕♖_symbols, Pound_£_Symbol, Euro_€_Symbol.
