@@ -1,7 +1,7 @@
 /**********************************************************************
 Developer: Nagesh Nanjundachari
 Task:      Self assignment. Understand UTF-8 6 byte format and write C programme without supported HEADER-FILES.
-Challenge: Without UTF-8 header files, macros, Print uft-8 chars from hex start point untill length.
+Code:      Without UTF-8 header files, macros, Print uft-8 chars from hex start point untill length.
 Setup:     Make sure your Linux ENVIORNMENT has UTF-8 enabled.
 Example:   Prints Misc symbols for hex start 0xE29880.
 Usage:     Start point can be changed at Macro: START_SYMBOLS.  Then Compile and Run.
