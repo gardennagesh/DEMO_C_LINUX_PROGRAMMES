@@ -18,8 +18,10 @@ void recursive_strrev (char *p) {
 static int  len = 0;
 static char *q;
 static int i=0;
-if (!len) q = p;
 char ch;
+
+if (!len) q = p;
+
 if (*p != 0) {
        ch = *p;
         len++;
